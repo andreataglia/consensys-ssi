@@ -75,7 +75,7 @@ If you don't already have it you need to create a Metamask account with whom you
 Switch to Ropsten testnet. You will need some ether to interact with the contract. Also you should need at least two addresses with some Ether. You can get some from the Ropsten Faucet [here](https://faucet.ropsten.be/).
 
 
-Docker images should be automatically downloaded from Docker Hub when you run the commands below. Run the containers for the the server and the client:
+Docker images should be automatically downloaded from Docker Hub when you run the commands below. Run the containers for the the server and the client (you may want to add -d flag to hide the logs if you don't want to be bothered):
 ```
 docker run -p 3000:3000 -e ADDRESS="<YOUR ADDRESS>" -e PRIVATEKEY="<THE PRIVATE KEY OF YOUR ADDRESS>" --rm --name backend andreataglia/ssi-consensys-backend:latest
 
