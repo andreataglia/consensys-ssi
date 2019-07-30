@@ -98,7 +98,7 @@ npm i
 cd pistis 
 npm i 
 cd ..
-ADDRESS="<YOUR ADDRESS>" -e PRIVATEKEY="<THE PRIVATE KEY OF YOUR ADDRESS>" node start.js
+ADDRESS="<YOUR ADDRESS>" PRIVATEKEY="<THE PRIVATE KEY OF YOUR ADDRESS>" node start.js
 ```
 
 Client is a VueJS app, run it with:
