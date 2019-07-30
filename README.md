@@ -134,8 +134,10 @@ Hope you like it :)
 
 ## Testing the Smart Contracts
 
+- From truffle console:
+
 ```
-cd smart-contracts
+cd ssi-smart-contracts
 truffle dev
 ```
 
@@ -144,6 +146,17 @@ Within the truffle console
 test
 ```
 The three main contracts have been tested, each with its own javascript tests.
+
+- If you prefer to use Ganache:
+
+Run ganache on standard port 8485
+
+```
+cd ssi-smart-contracts
+truffle compile
+truffle migrate
+truffle test
+```
 
 ## Few Notes on Grading Requirements
 
